@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?><ErrorList id="C:\Users\winni\Desktop\專研\student_codes\新標記檔\373\373\373.xml">
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><ErrorList id="E:\Code\Project-XML-Error\Source Code\張淯雯\新增10題\373\373\373.xml">
 	
 <SourceCode_List><SourceCode lines="37" name="KKBox.java"><![CDATA[class KKBox
 {   double length;
@@ -36,4 +36,5 @@
         System.out.println("體積:"+vol+"表面積"+sur);
     }
 }
-]]></SourceCode></SourceCode_List><Errors><Error tpye="函數:函數庫使用錯誤"><Message><![CDATA[Java Doubleclass的parseDouble（）方法是Java中的一種內置方法，該方法返回一個新的double值，該double值初始化為指定的字符串表示的值]]></Message><Linelist><line Begin="27" End="29" src="KKBox"/></Linelist></Error></Errors></ErrorList>
+]]></SourceCode></SourceCode_List><Errors><Error tpye="函數:函數庫使用錯誤"><Message><![CDATA[Java Doubleclass的parseDouble（）方法是Java中的一種內置方法，該方法返回一個新的double值，該double值初始化為指定的字符串表示的值]]></Message><Linelist><line Begin="27" End="29" src="KKBox"/></Linelist></Error><Error tpye="校對:校對"><Message><![CDATA[27~29沒錯
+在main給值就可以執行了]]></Message><Linelist><line Begin="-1" End="-1" src="KKBox"/></Linelist></Error></Errors></ErrorList>

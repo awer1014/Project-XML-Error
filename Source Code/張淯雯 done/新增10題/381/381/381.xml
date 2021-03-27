@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?><ErrorList id="C:\Users\winni\Desktop\專研\student_codes\新標記檔\381\381\381.xml">
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><ErrorList id="E:\Code\Project-XML-Error\Source Code\張淯雯\新增10題\381\381\381.xml">
 	
 <SourceCode_List><SourceCode lines="28" name="Exam.java"><![CDATA[import java.util.Random;
 public class KKBox
@@ -27,4 +27,5 @@ public class KKBox
 //請撰寫測試程式，允許使用者輸入相關資料，並將結果顯示在螢幕上，如下:
 //請輸入長: 1請輸入寬: 2請輸入高: 3體積:6表面積:22
 
- ]]></SourceCode></SourceCode_List><Errors><Error tpye="正確:正確"><Message><![CDATA[正確]]></Message><Linelist><line Begin="1" End="28" src="Exam"/></Linelist></Error></Errors></ErrorList>
+ ]]></SourceCode></SourceCode_List><Errors><Error tpye="校對:校對"><Message><![CDATA[建構子沒寫 
+算表面積參數沒傳遞]]></Message><Linelist><line Begin="-1" End="-1" src="Exam"/></Linelist></Error><Error tpye="正確:正確"><Message><![CDATA[正確]]></Message><Linelist><line Begin="1" End="28" src="Exam"/></Linelist></Error></Errors></ErrorList>
