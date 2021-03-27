@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=KKBOX
+comment1.params=
+comment1.target=double\ getvolume()
+comment2.params=
+comment2.target=double\ getsurfaceArea()
+comment3.params=volume
+comment3.target=void\ setvolume(double)
+comment4.params=surfaceArea
+comment4.target=void\ setsurfaceArea(double)
+comment5.params=args
+comment5.target=void\ main(java.lang.String[])
+numComments=6

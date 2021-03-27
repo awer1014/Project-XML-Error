@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><ErrorList id="F:\Code\Project\Source Code\張淯雯\season\370_season\370.xml">
+	
+<SourceCode_List><SourceCode lines="22" name="season.java"><![CDATA[
+public class season
+{
+    
+     String OK(){
+        String[] season ={ "春夏秋冬"};
+		return null;
+    }
+    
+
+    
+
+     public static void main(String[] argv){
+    
+    season ss = new season();
+    
+    Math.random();
+    System.out.print("今天的心情是 = " + ss.OK());
+    
+  }    
+}
+]]></SourceCode></SourceCode_List><Errors><Error tpye="校對:校對"><Message><![CDATA[你沒改 跟369 那題差不多]]></Message><Linelist><line Begin="-1" End="-1" src="season"/></Linelist></Error></Errors></ErrorList>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><ErrorList id="F:\Code\Project\Source Code\張淯雯\season\400_season\400.xml">
+	
+<SourceCode_List><SourceCode lines="7" name="test.java"><![CDATA[import java.util.Random;
+public class test {
+public static void main(String[] args) {
+       Random ran = new Random();
+       System.out.println(ran.nextString("�K","�L","��","�V");
+}
+}]]></SourceCode></SourceCode_List><Errors><Error tpye="校對:校對"><Message><![CDATA[他沒用到陣列 所以沒錯
+他函數使用錯誤]]></Message><Linelist><line Begin="0" End="0" src="test"/></Linelist></Error><Error tpye="陣列:不會宣告陣列變數"><Message><![CDATA[宣告陣列-資料型態 []變數名稱={"資料內容"}]]></Message><Linelist><line Begin="-1" End="-1" src="test"/></Linelist></Error></Errors></ErrorList>
