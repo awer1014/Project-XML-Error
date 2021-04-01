@@ -1,18 +1,18 @@
 #BlueJ package file
-dependency1.from=XmlFileSearch
-dependency1.to=FileFilter
+dependency1.from=Main
+dependency1.to=LoadXml
 dependency1.type=UsesDependency
 dependency2.from=Main
-dependency2.to=LoadXml
+dependency2.to=XmlFileSearch
 dependency2.type=UsesDependency
-dependency3.from=Main
-dependency3.to=XmlFileSearch
+dependency3.from=WriteToTxt
+dependency3.to=Mapper
 dependency3.type=UsesDependency
 dependency4.from=LoadXml
 dependency4.to=WriteToTxt
 dependency4.type=UsesDependency
-dependency5.from=WriteToTxt
-dependency5.to=Mapper
+dependency5.from=XmlFileSearch
+dependency5.to=FileFilter
 dependency5.type=UsesDependency
 editor.fx.0.height=737
 editor.fx.0.width=814
