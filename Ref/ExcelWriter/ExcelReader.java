@@ -16,19 +16,19 @@ public class ExcelReader {
         Workbook workbook = WorkbookFactory.create(xlsFile);
         // 表個數
         int numberOfSheets = workbook.getNumberOfSheets();
-        //		System.out.println(numberOfSheets);
+        //        System.out.println(numberOfSheets);
         if (numberOfSheets <= 0) return null;
         List<StudentScore> list = new ArrayList<>();
         //我們的需求只需要處理一個表，因此不需要遍歷
         Sheet sheet = workbook.getSheetAt(0);
         // 行數
         int rowNumbers = sheet.getLastRowNum() + 1;
-        //		System.out.println(rowNumbers);
+        //        System.out.println(rowNumbers);
         StudentScore score;
         // 讀數據，第二行開始讀取
         for (int row = 1; row < rowNumbers; row++) {
             Row r = sheet.getRow(row);
-            //			System.out.println(r.getPhysicalNumberOfCells());
+            //            System.out.println(r.getPhysicalNumberOfCells());
             //我們只需要前兩列
             if (r.getPhysicalNumberOfCells() >= 2) {
                 score = new StudentScore(r.getCell(0).toString(), (int) Double.parseDouble(r.getCell(1).toString()));
